@@ -59,6 +59,7 @@ width: 90%;
 .menu-primer ul {
     background-color: rgb(249, 250, 217);
     border-radius: 4px;
+    text-align: center;
     box-shadow:
         0 3px 5px -1px rgba(0,0,0,.2),
         0 6px 10px 0 rgba(0,0,0,.14),
@@ -98,7 +99,7 @@ width: 90%;
 /* Start Anchor/ Hyperlink */
 a:link,
 a:visited {
-    color: #e7a936;
+    color: #e6a96d;
     text-decoration: none;
 }
 a:hover,
@@ -197,6 +198,13 @@ width: 49.5%;
     text-transform: uppercase;
     text-align: center;
 }
+
+.box-heading2 {
+  background-color: #fdfcfa;
+    border: 1px solid #eaecef;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
 .box-heading h4 {
     font-size: 14px;
     margin: 0px
@@ -208,6 +216,15 @@ width: 49.5%;
     margin: 0;
     padding: 10px 20px;
     
+ }
+ 
+ .box-isi2 {
+  background-color: #ffffff; 
+  border: 1px solid #eaecef;
+  border-top: 0;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
  }
 
 /* End Box */
